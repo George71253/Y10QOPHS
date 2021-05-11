@@ -1,0 +1,16 @@
+
+total = 0
+namelist = list()
+
+while True:
+    for i in range(3):
+        names = input("Enter names of people you want to invite >>> ")
+        total=(total+1)
+        namelist.append(names)
+
+    loop = input("Invite more? yes or no ")
+
+    if loop == "no":
+        break
+print("you invited",total,"people")
+
