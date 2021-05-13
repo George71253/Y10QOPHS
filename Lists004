@@ -1,0 +1,14 @@
+Programme = ["Prison Break","TFATWS","Thomas The Tank Engine","Bob The Builder"]
+print(Programme)
+
+print(" ")
+
+for i in Programme:
+    print(i)
+
+print(Programme)
+newshow = str(input("Enter another show >>> "))
+location = int(input("enter a location 0-4 >>>"))
+Programme.insert(location,newshow)
+
+print(Programme)
