@@ -1,0 +1,26 @@
+loop = True
+
+while loop == True:
+  print("League registration")
+  firstname = str(input("what is your first name >>>"))
+  lastname = str(input("what is your last name >>>"))
+  nickname = str(input("what is your nickname >>>"))
+  emailaddress = str(input("enter your emailaddress >>>"))
+  skill = input("enter a skill level C for casual and E for expert>>>").upper()
+
+
+  if skill == "E":
+    skill = print("expert")
+
+  else:
+    skill = print("casual")
+
+
+    details = input("are your details correct Y for yes and N for no")
+
+    if details == "Y":
+      details = print("yes")
+
+    else:
+     details = print("no")
+ 
